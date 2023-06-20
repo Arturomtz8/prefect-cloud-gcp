@@ -16,7 +16,7 @@ inputs:
   region:
     description: 'GCP region'
     required: false
-    default: 'us-east1'
+    default: 'us-west1'
   artifact_repository:
     description: 'Artifact Registry Repository Name'
     required: false
@@ -28,7 +28,7 @@ inputs:
   zone:
     description: 'GCP region with the zone'
     required: false
-    default: 'us-east1-b'
+    default: 'us-west1-b'
   machine_type:
     description: 'GCP Compute Engine instance type'
     required: false

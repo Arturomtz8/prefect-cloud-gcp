@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "prefect-cloud-gcp"
+version = "0.1.0"
+description = ""
+authors = ["Arturomtz8 <arturo.mtz8@gmail.com>"]
+readme = "README.md"
+packages = [{include = "prefect_cloud_gcp"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+faker = "^18.10.1"
+google-auth = "^2.20.0"
+google-auth-oauthlib = "^1.0.0"
+google-cloud-bigquery = "^3.11.1"
+google-cloud-bigquery-storage = "^2.20.0"
+google-cloud-storage = "^2.9.0"
+google-cloud-aiplatform = "^1.26.0"
+gcsfs = "^2023.6.0"
+pandas = "^2.0.2"
+pandas-gbq = "^0.19.2"
+prefect-gcp = "v0.1.8"
+psycopg2-binary = "^2.9.6"
+pydata-google-auth = "^1.8.0"
+pygit2 = "^1.12.1"
+python-dotenv = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

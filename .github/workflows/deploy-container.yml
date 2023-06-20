@@ -10,12 +10,12 @@ on:
       region:
         description: GCP region
         required: true
-        default: 'us-east1'
+        default: 'us-west1'
         type: string
       zone:
         description: Zone in the selected GCP region
         required: true
-        default: 'us-east1-b'
+        default: 'us-west1-b'
         type: string
       machine_type:
         description: GCP Compute Engine instance type

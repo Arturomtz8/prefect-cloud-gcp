@@ -15,7 +15,7 @@ on:
       region:
         description: GCP region
         required: true
-        default: 'us-east1'
+        default: 'us-west1'
         type: string
 jobs:
   container-image:

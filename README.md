@@ -27,7 +27,7 @@ Create a GCP project and a service account. Here's how you can create all that f
 # Create GCP account + project => here we use project named "prefect-community" - replace it with your project name
 # This will also set default project and region:
 export CLOUDSDK_CORE_PROJECT="prefect-community"
-export CLOUDSDK_COMPUTE_REGION=us-east1
+export CLOUDSDK_COMPUTE_REGION=us-west1
 export GCP_AR_REPO=prefect
 export GCP_SA_NAME=prefect
 

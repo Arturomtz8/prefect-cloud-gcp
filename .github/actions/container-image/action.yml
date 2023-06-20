@@ -16,7 +16,7 @@ inputs:
   region:
     description: 'GCP region'
     required: false
-    default: 'us-east1'
+    default: 'us-west1'
   artifact_repository:
     description: 'Artifact Registry Repository Name'
     required: false
